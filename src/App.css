@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.navbar-nav
+{
+
+
+  margin: auto!important;
+}
+
+.content_button{
+
+  margin: auto;
+  display: block;
+  margin-top: 3rem;
+  border: 2px solid brown !important;
+  color: brown;
+  height: 3rem;
+  width:8rem;
+}
+.second_heading{
+
+  margin: auto;
+    width: 50%;
+    display: flex;
+    margin-right: 14rem;
+    margin-top: 3rem;
+    color: cadetblue;
+}
+
+
+.heading{
+
+  font-size: 14px;
+  margin: auto;
+    color: cadetblue;
+    margin-left: 29rem;
+    margin-top: 3rem!important;
+}
+.para{
+    font-size: 11px!important;
+    margin: auto;
+    /* margin-left: -26rem; */
+    text-align: center;
+    width: 50%;
+    display: inline-flex;
+}
+
+
+
+
+
+
+.reserve{
+
+  border: 2px solid brown !important;
+    width: -moz-fit-content;
+    width: 8%;
+    font-size: medium;
+    margin-left: 3px !important;
+    margin-right: 3rem !important;
+    height: 3rem;
+    color: brown;
+}
+
+.nav-item{
+
+  color: black !important;
+  font-size: 11px !important;
+  font-weight: 600;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  display: inline-block;
+  
+}
+.images{
+  width:30vmax;
+  display: inline-block;
+  margin: 25px 10px;
+  align-items: center;
+}
+.calender-start{
+  padding:10px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.font-size{
+  font-size: x-small;
+  padding:10px;
+}
+h6{
+  color: cadetblue;
+  align-items: center;
+  display: flex;
+  padding:10px;
+
+}
+.font-size1{
+  font-size:small;
+  padding:10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
